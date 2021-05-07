@@ -1,27 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
-
-*,
-*::before,
-*::after{
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif; 
+}
 
-:root {
-    --ff-primary: "Source Sans Pro", sans-serif;
-    --ff-secondary: "Source Code Pro", monospace;
+header {
+    display: flex;
+    background: lavender;
+    width: 95%;
+    height: 10;
+    margin: auto;
+    align-items: center;
 
-    --fw-reg: 300;
-    --fw-bold: 900;
 
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+}
 
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+.logo, .nav_list, .contact_list{
+    display: flex;
+}
 
+.logo{
+
+    flex: 1;
+
+}
+
+.nav{
+    flex: 2;
+}
+
+.nav_list{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav_item{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contacts{
+    flex: 0;
+    justify-content: flex-end;
+}
+
+.contact_list{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.contact_item{
+    margin: 10px;
 }
