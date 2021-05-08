@@ -1,13 +1,42 @@
-*{
-    margin: 0px;
-    padding: 0px;
+:root{
+    --clr-primary-200: #bbd7f6;
+    --clr-primary-400: lavenderblush;
+
+    --clr-netural-100: white;
+    --clr-netural-900: black;
+    
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-accent: 'Playfair Display', serif;
+
+}
+
+
+*,
+*::before,
+*::after{
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif; 
-    background: #bbd7f6;
+body, h1, h3, p{
+    margin: 0;
+    padding: 0;
 }
+
+
+body{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+
+}
+
+h1, h2, h3, p{
+    font-family: var(--ff-primary);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
 a:link{
     text-decoration: none;
 }
@@ -16,6 +45,12 @@ p{
     color:black;
     font-size: 15px;
 }
+
+.split{
+    width: 33%;
+    height: auto;
+}
+
 /*Header*/
 
 header {
