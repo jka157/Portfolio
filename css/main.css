@@ -375,7 +375,7 @@
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   }
 
-  .fa-layer-group, .fa-users{
+  .fa-book, .fa-users{
     font-size: 14rem;
   }
 
@@ -506,14 +506,14 @@
   flex-direction: column;
   justify-content: center;
   color: white;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background-image: linear-gradient(to right, #a8c0ff 0%, #3f2b96 100%);
   transition: 0.3s ease-in
 }
 
 .projects__card:nth-child(2) {
-  background: #1fa2ff;
-  background: -webkit-linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
-  background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+  background: #1fa2ff; 
+  background: -webkit-linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
 
 .projects__card:nth-child(3) {
