@@ -1,3 +1,3 @@
 #Portfolio
 
-This is my personal website for showing off my portfolio
+This is my personal portfolio with my resume, projects and contact information. 
